@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bronx Elite Auto Detailing | Mobile Detailing Demo</title>
+  <meta name="description" content="Portfolio demo landing page for a fictional mobile auto detailing business serving the Bronx and lower Westchester.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Bronx Elite Auto Detailing home">
+      <span class="brand-mark">BE</span>
+      <span>
+        <strong>Bronx Elite</strong>
+        <small>Auto Detailing</small>
+      </span>
+    </a>
+    <nav class="header-actions" aria-label="Primary">
+      <a class="phone-link" href="tel:+17185550142">(718) 555-0142</a>
+      <a class="button button-small" href="#booking">Book Detail</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="Glossy black luxury car after premium detailing"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Mobile detailing across the Bronx and lower Westchester</p>
+        <h1>Showroom-level detailing brought to your driveway.</h1>
+        <p class="hero-copy">Interior deep cleaning, exterior hand wash, ceramic protection, paint correction, and monthly upkeep for owners who want their vehicle to feel new again.</p>
+        <div class="hero-ctas">
+          <a class="button" href="#booking">Request a Detail</a>
+          <a class="button button-ghost" href="#packages">View Packages</a>
+        </div>
+        <div class="trust-row" aria-label="Service highlights">
+          <span>Insured mobile service</span>
+          <span>Same-week availability</span>
+          <span>Premium products</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tight" id="packages">
+      <div class="section-heading">
+        <p class="eyebrow">Service packages</p>
+        <h2>Detailing plans built for city driving.</h2>
+      </div>
+      <div class="package-grid">
+        <article class="package-card">
+          <div>
+            <p class="package-label">Essential Reset</p>
+            <h3>Interior + Exterior</h3>
+            <p class="price">From $149</p>
+          </div>
+          <ul>
+            <li>Hand wash and wheel cleaning</li>
+            <li>Interior vacuum and wipe-down</li>
+            <li>Windows, mats, tires, and trim</li>
+          </ul>
+          <a class="button button-block" href="#booking" data-package-link="Essential Reset">Choose Essential</a>
+        </article>
+
+        <article class="package-card package-featured">
+          <div class="popular-badge">Most booked</div>
+          <div>
+            <p class="package-label">Elite Deep Clean</p>
+            <h3>Full Interior Detail</h3>
+            <p class="price">From $249</p>
+          </div>
+          <ul>
+            <li>Steam cleaning and stain treatment</li>
+            <li>Leather, vinyl, and fabric care</li>
+            <li>Odor treatment and trunk detail</li>
+          </ul>
+          <a class="button button-block" href="#booking" data-package-link="Elite Deep Clean">Choose Elite</a>
+        </article>
+
+        <article class="package-card">
+          <div>
+            <p class="package-label">Signature Protection</p>
+            <h3>Ceramic + Correction</h3>
+            <p class="price">From $599</p>
+          </div>
+          <ul>
+            <li>Paint decontamination and polish</li>
+            <li>Gloss enhancement correction</li>
+            <li>Six-month ceramic sealant</li>
+          </ul>
+          <a class="button button-block" href="#booking" data-package-link="Signature Protection">Choose Signature</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">Before and after</p>
+        <h2>Built to make the transformation obvious.</h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="assets/interior-before-after.svg" alt="Placeholder before and after interior cleaning comparison">
+          <figcaption>Interior extraction and surface reset</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/exterior-before-after.svg" alt="Placeholder before and after exterior wash comparison">
+          <figcaption>Exterior wash, wheels, and trim finish</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/paint-before-after.svg" alt="Placeholder before and after paint correction comparison">
+          <figcaption>Paint correction and gloss enhancement</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section why-section">
+      <div class="section-heading">
+        <p class="eyebrow">Why choose us</p>
+        <h2>Premium results without losing your day.</h2>
+      </div>
+      <div class="why-grid">
+        <article>
+          <span class="icon-box">01</span>
+          <h3>We come prepared</h3>
+          <p>Mobile setup, pro-grade products, and a clear arrival window for apartments, homes, offices, and garages.</p>
+        </article>
+        <article>
+          <span class="icon-box">02</span>
+          <h3>City-car specialists</h3>
+          <p>Salt, brake dust, spills, rideshare wear, pet hair, and tight parking realities are part of the process.</p>
+        </article>
+        <article>
+          <span class="icon-box">03</span>
+          <h3>Maintenance plans</h3>
+          <p>Monthly packages keep high-use vehicles clean, protected, and ready without repeat quoting every visit.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="booking-band" id="booking">
+      <div class="booking-copy">
+        <p class="eyebrow">Booking request</p>
+        <h2>Get a fast quote for your vehicle.</h2>
+        <p>Share your vehicle details, preferred timing, and parking setup. We will match you with the right detail and follow up with availability.</p>
+      </div>
+      <form class="lead-form" id="leadForm">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-row">
+          <label for="vehicle">Vehicle type</label>
+          <select id="vehicle" name="vehicle" required>
+            <option value="">Select vehicle</option>
+            <option>Sedan</option>
+            <option>SUV</option>
+            <option>Truck</option>
+            <option>Luxury / exotic</option>
+            <option>Fleet vehicle</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="package">Service package</label>
+          <select id="package" name="package" required>
+            <option value="">Select package</option>
+            <option>Essential Reset</option>
+            <option>Elite Deep Clean</option>
+            <option>Signature Protection</option>
+            <option>Monthly Maintenance</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="zip">Zip code</label>
+          <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" required>
+        </div>
+        <div class="form-row">
+          <label for="date">Preferred date</label>
+          <input id="date" name="date" type="date" required>
+        </div>
+        <div class="form-row form-row-full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us about pet hair, stains, coating goals, parking access, or timing."></textarea>
+        </div>
+        <input type="hidden" id="utmSource" name="utmSource">
+        <input type="hidden" id="utmMedium" name="utmMedium">
+        <input type="hidden" id="utmCampaign" name="utmCampaign">
+        <button class="button button-submit" type="submit">Save Booking Request</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="section dashboard-section" id="dashboard">
+      <div class="section-heading">
+        <p class="eyebrow">Owner dashboard</p>
+        <h2>Lead performance snapshot.</h2>
+      </div>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <span>Total leads</span>
+          <strong id="totalLeads">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>Top package</span>
+          <strong id="topPackage">None</strong>
+        </article>
+        <article class="stat-card">
+          <span>Top source</span>
+          <strong id="topSource">Direct</strong>
+        </article>
+      </div>
+      <div class="dashboard-grid">
+        <article class="dashboard-panel">
+          <h3>Leads by package</h3>
+          <div id="packageBreakdown" class="breakdown-list"></div>
+        </article>
+        <article class="dashboard-panel">
+          <h3>Leads by traffic source</h3>
+          <div id="sourceBreakdown" class="breakdown-list"></div>
+        </article>
+        <article class="dashboard-panel dashboard-wide">
+          <div class="panel-title-row">
+            <h3>Recent leads</h3>
+            <button class="text-button" type="button" id="clearLeads">Clear demo leads</button>
+          </div>
+          <div class="recent-leads" id="recentLeads"></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Bronx Elite Auto Detailing is a fictional business created for a portfolio demo. No real booking or payment is processed.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

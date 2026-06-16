@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Before and after paint correction placeholder">
+  <rect width="900" height="675" fill="#101318"/>
+  <rect width="450" height="675" fill="#24262c"/>
+  <rect x="450" width="450" height="675" fill="#101318"/>
+  <path d="M60 390c83-108 177-164 310-146 60 34 94 77 118 146Z" fill="#313744"/>
+  <path d="M496 390c83-108 177-164 310-146 60 34 94 77 118 146Z" fill="#161b23"/>
+  <g stroke="#c7c7c7" stroke-width="5" opacity=".38">
+    <path d="M95 300 335 474"/><path d="M151 250 390 438"/><path d="M128 438 354 276"/>
+  </g>
+  <path d="M542 305 835 225" stroke="#fff" stroke-width="14" stroke-linecap="round" opacity=".8"/>
+  <path d="M573 390c96 21 196 21 300 0" stroke="#d8a94d" stroke-width="12" stroke-linecap="round"/>
+  <text x="42" y="76" fill="#fff" font-family="Arial" font-size="42" font-weight="700">Before</text>
+  <text x="493" y="76" fill="#fff" font-family="Arial" font-size="42" font-weight="700">After</text>
+  <line x1="450" y1="0" x2="450" y2="675" stroke="#fff" stroke-width="5" opacity=".65"/>
+</svg>

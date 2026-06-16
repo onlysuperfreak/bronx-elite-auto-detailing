@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Luxury vehicle detailing placeholder">
+  <defs>
+    <linearGradient id="paint" x1="0" x2="1">
+      <stop offset="0" stop-color="#11151c"/>
+      <stop offset="0.52" stop-color="#343b46"/>
+      <stop offset="1" stop-color="#07090d"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#11141a"/>
+  <path d="M0 620C210 522 404 476 616 486c196 9 338 78 512 60 192-20 320-100 472-186v640H0Z" fill="#20242d"/>
+  <path d="M210 625c106-132 205-205 378-216l390-23c115-7 191 21 281 88l111 83c42 31 34 97-14 116-110 44-297 78-574 82-269 4-464-19-584-62-35-13-43-43-17-68Z" fill="url(#paint)"/>
+  <path d="M480 430c83-96 141-126 261-133l157-9c72-4 121 14 179 57l122 91c-173 26-416 38-719-6Z" fill="#13171f"/>
+  <path d="M548 421c66-67 111-87 202-92l135-7c55-3 92 11 137 43l70 50c-142 18-327 20-544 6Z" fill="#272f3b"/>
+  <circle cx="451" cy="722" r="87" fill="#06070a"/>
+  <circle cx="451" cy="722" r="45" fill="#d6dde7"/>
+  <circle cx="451" cy="722" r="18" fill="#676f7a"/>
+  <circle cx="1132" cy="707" r="92" fill="#06070a"/>
+  <circle cx="1132" cy="707" r="48" fill="#d6dde7"/>
+  <circle cx="1132" cy="707" r="19" fill="#676f7a"/>
+  <path d="M334 560c260 36 558 32 890-13" fill="none" stroke="#d8a94d" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+  <path d="M624 302 1296 148" stroke="url(#shine)" stroke-width="24" stroke-linecap="round" opacity=".52"/>
+  <path d="M664 548c177 11 340 4 489-21" stroke="#f5f7fb" stroke-width="8" stroke-linecap="round" opacity=".42"/>
+  <path d="M1230 557c64 4 105 16 132 36" stroke="#c62f3a" stroke-width="16" stroke-linecap="round"/>
+</svg>
