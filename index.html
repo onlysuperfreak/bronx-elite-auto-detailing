@@ -18,7 +18,7 @@
     </a>
     <nav class="header-actions" aria-label="Primary">
       <a class="phone-link" href="tel:+17185550142">(718) 555-0142</a>
-      <a class="button button-small" href="#booking">Book Detail</a>
+      <a class="button button-small" href="#booking">Request Quote</a>
     </nav>
   </header>
 
@@ -30,8 +30,8 @@
         <h1>Showroom-level detailing brought to your driveway.</h1>
         <p class="hero-copy">Interior deep cleaning, exterior hand wash, ceramic protection, paint correction, and monthly upkeep for owners who want their vehicle to feel new again.</p>
         <div class="hero-ctas">
-          <a class="button" href="#booking">Request a Detail</a>
-          <a class="button button-ghost" href="#packages">View Packages</a>
+          <a class="button" href="#booking">Get My Mobile Detail Quote</a>
+          <a class="button button-ghost" href="#packages">Compare Detail Packages</a>
         </div>
         <div class="trust-row" aria-label="Service highlights">
           <span>Insured mobile service</span>
@@ -58,7 +58,7 @@
             <li>Interior vacuum and wipe-down</li>
             <li>Windows, mats, tires, and trim</li>
           </ul>
-          <a class="button button-block" href="#booking" data-package-link="Essential Reset">Choose Essential</a>
+          <a class="button button-block" href="#booking" data-package-link="Essential Reset">Request Essential Quote</a>
         </article>
 
         <article class="package-card package-featured">
@@ -73,7 +73,7 @@
             <li>Leather, vinyl, and fabric care</li>
             <li>Odor treatment and trunk detail</li>
           </ul>
-          <a class="button button-block" href="#booking" data-package-link="Elite Deep Clean">Choose Elite</a>
+          <a class="button button-block" href="#booking" data-package-link="Elite Deep Clean">Book Elite Deep Clean</a>
         </article>
 
         <article class="package-card">
@@ -87,8 +87,22 @@
             <li>Gloss enhancement correction</li>
             <li>Six-month ceramic sealant</li>
           </ul>
-          <a class="button button-block" href="#booking" data-package-link="Signature Protection">Choose Signature</a>
+          <a class="button button-block" href="#booking" data-package-link="Signature Protection">Request Protection Quote</a>
         </article>
+      </div>
+    </section>
+
+    <section class="section perfect-section">
+      <div class="section-heading">
+        <p class="eyebrow">Perfect for</p>
+        <h2>Mobile detailing for real Bronx schedules.</h2>
+      </div>
+      <div class="perfect-grid" aria-label="Customer types">
+        <article><span>Daily drivers</span></article>
+        <article><span>Parents with messy interiors</span></article>
+        <article><span>Rideshare drivers</span></article>
+        <article><span>Luxury vehicle owners</span></article>
+        <article><span>Small business fleets</span></article>
       </div>
     </section>
 
@@ -137,11 +151,43 @@
       </div>
     </section>
 
+    <section class="section tracking-section" id="lead-tracking">
+      <div class="tracking-layout">
+        <div class="tracking-copy">
+          <p class="eyebrow">Built-in lead tracking</p>
+          <h2>Know which ads are turning car owners into booking requests.</h2>
+          <p>Bronx Elite can see whether a lead came from Instagram Ads, Facebook Ads, Google Ads, TikTok, or direct traffic, then connect that source to the package the customer requested.</p>
+          <p class="tracking-line">Built to help mobile detailing businesses see which ads generate booking requests, package interest, and repeat customer opportunities.</p>
+          <div class="tracking-actions">
+            <a class="button" href="#demo-dashboard">View Demo Lead Dashboard</a>
+            <a class="test-link" href="https://onlysuperfreak.github.io/bronx-elite-auto-detailing/?utm_source=instagram&utm_medium=paid_social&utm_campaign=interior_detailing">Open Instagram UTM test link</a>
+          </div>
+        </div>
+        <div class="tracking-card-grid">
+          <article class="tracking-card">
+            <span class="icon-box">01</span>
+            <h3>Campaign source tracking</h3>
+            <p>UTM links show whether a booking request came from Instagram, Facebook, Google, TikTok, or people typing the site in directly.</p>
+          </article>
+          <article class="tracking-card">
+            <span class="icon-box">02</span>
+            <h3>Booking request capture</h3>
+            <p>Each form submission saves the customer details, service package, vehicle type, zip code, preferred date, and original campaign source.</p>
+          </article>
+          <article class="tracking-card">
+            <span class="icon-box">03</span>
+            <h3>Simple owner dashboard</h3>
+            <p>The dashboard turns local lead data into quick totals, package demand, traffic source results, and recent booking requests.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="booking-band" id="booking">
       <div class="booking-copy">
         <p class="eyebrow">Booking request</p>
-        <h2>Get a fast quote for your vehicle.</h2>
-        <p>Share your vehicle details, preferred timing, and parking setup. We will match you with the right detail and follow up with availability.</p>
+        <h2>Request your mobile detailing quote.</h2>
+        <p>Share your vehicle details, preferred timing, and parking setup. We will match you with the right detail package and follow up with availability.</p>
       </div>
       <form class="lead-form" id="leadForm">
         <div class="form-row">
@@ -192,15 +238,16 @@
         <input type="hidden" id="utmSource" name="utmSource">
         <input type="hidden" id="utmMedium" name="utmMedium">
         <input type="hidden" id="utmCampaign" name="utmCampaign">
-        <button class="button button-submit" type="submit">Save Booking Request</button>
+        <button class="button button-submit" type="submit">Request My Mobile Detail Quote</button>
         <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
       </form>
     </section>
 
-    <section class="section dashboard-section" id="dashboard">
+    <section class="section dashboard-section" id="demo-dashboard">
       <div class="section-heading">
         <p class="eyebrow">Owner dashboard</p>
-        <h2>Lead performance snapshot.</h2>
+        <h2>Business Owner Lead Dashboard.</h2>
+        <p>This demo shows how a detailing business could see which packages people request and which traffic sources produce leads.</p>
       </div>
       <div class="stats-grid">
         <article class="stat-card">
@@ -237,7 +284,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Bronx Elite Auto Detailing is a fictional business created for a portfolio demo. No real booking or payment is processed.</p>
+    <p>Fictional portfolio demo: Bronx Elite Auto Detailing is not a real business. No real booking, quote, or payment is processed.</p>
   </footer>
 
   <script src="script.js"></script>
